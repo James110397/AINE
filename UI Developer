@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment</title>
+    <style>
+        .frame{
+            border:1% solid white;
+            border-radius:5px; 
+           background-color:white;
+           width:100%;
+           text-align: left;
+           border-spacing: 100%;          
+          
+        }
+        .imghig
+        {
+            padding:0,50%,0,50%;
+            border-style: outset;
+        }
+        body{
+            background-color: rgb(250, 243, 243);
+        }
+        .btn {
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+  background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #050405;
+  font-size: 27px;
+  padding: 40px 40px 40px 40px;
+  text-decoration: none;
+  width: 10%;
+  height: 5%;
+  margin-bottom: 0%;
+  margin-top: 0%;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
+.vid{
+    text-align: left;
+}
+.btn2 {
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+  background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 17px;
+  padding: 0px 40px 0px 40px;
+  text-decoration: none;
+}
+
+.btn2:hover {
+  text-decoration: none;
+}     
+.alig{
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+    </style>
+</head>
+
+<body>
+    <div>
+    <table  class="border">
+        <tr class="imghig">
+            <th class="imghig">
+                <img src="logo.jpg">  
+        </th>
+    </tr>
+    <tr>
+        <th class="imghig">
+            <img src="students.jpg">  
+    </th>
+    <th>
+        <p class="vid">◀️Videos</p>
+    </th>
+</tr>
+<tr>
+    <th class="imghig">
+        <img src="lessonplan.jpg"> 
+</th>
+<th class="frame">
+    <h1 class="btn2">Insert URL here</h1>
+</th>
+<th>
+
+</th>
+</tr>
+<tr>
+<td>
+<img src="settings.jpg" alt="">
+</td>
+<td><p class="alig">or</p>
+<p class="btn">upload</p>
+</td>
+</tr>
+
+
+
+</table>
+</div>
+
+</body>
+</html>
+
